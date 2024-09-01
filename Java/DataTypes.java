@@ -41,7 +41,7 @@ public class DataTypes
                    System.out.println("x and y: " + x + " " + y);
                    x = y * 2;
                }
-               //y = 100; //Error! y not know here
+               int y = 100; //Error! y not know here
 
                // x is still known here
                System.out.println("x is " + x);
@@ -90,7 +90,7 @@ public class DataTypes
        int aBetter2 [] = new int[3];
 
        int[] aBest = {
-               10,9,8
+               10,9,8,7,6,
        };
 
 
